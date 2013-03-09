@@ -1,0 +1,65 @@
+Q1 What’s the difference between an indexed array and an associative array?
+A An indexed array is indexed with numbers:
+
+  $indexed = array("one", "two", "three");
+  $indexed = array(1 => "one", 2 => "two", 3 => "three");
+
+  while associative arrays are indexed by strings:
+
+  $marks = array("Mark" => 80, "June" => 77, "April" => "95");
+
+Q2 When should you use quotation marks for an array’s key or value? When
+   shouldn’t you?
+A Quotation marks should be used for array keys or values when the key
+  or value is a string.
+
+Q3 How do you print a specific array element? How do you print every
+   element in an array?
+A  You can print a specific array element by accessing the array using
+   the appropriate key value.
+
+   For example, the following command will print the first value of
+   an indexed array:
+
+   print "day[0]";
+
+   while the following command will print the value from the "marks"
+   associative array corresponding to the key 'June':
+
+   print "marks['June']";
+
+Q4 What happens if you don’t use the square brackets when adding an
+   element to an array?
+A  It will replace the array with a string whose value is the element
+   being added to the former array.
+
+Q5 What function returns the number of elements in an array?
+A  The count() function returns the number of elements in an array.
+
+Q6 When must you use curly brackets for printing array elements?
+A  Curly braces are required for printing array elements when the keys
+   are strings. They can also be used to clarify the syntax of variable
+   references
+
+Q7 What is the difference between the sort() and asort() functions?
+   Between sort() and rsort()?
+
+   The sort() function sorts the values of an array, replacing the existing
+   keys with new keys.
+
+   The asort() function sorts the values of an array, preserving the existing
+   keys.
+
+   Sort() performs an ascending sort, while rsort() performs a descending
+   sort.
+
+Q8 What is the syntax for explode()? For implode()? If you don’t remember,
+   check out the PHP manual page for either function.
+
+   The syntax of the explode function is:
+
+   array = explode(delimeter_string, string);
+
+   The syntax of the implode function is:
+
+   string = implode(glue_string, array_of_pieces_to_glue);
