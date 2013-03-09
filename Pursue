@@ -1,0 +1,9 @@
+Soups2.php contains the rewritten version of soups2.php that counts the
+number of elements in the array without using a variable.
+
+Multidim.php contains a script that creates and displays a multidimensional
+array.
+
+List.php is a rewritten version of the original list.php, but employs
+some form data validation before sorting the contents of the array, then
+uses a foreach loop to display the individual elements of the array.
